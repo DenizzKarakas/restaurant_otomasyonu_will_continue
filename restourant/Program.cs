@@ -114,12 +114,12 @@ namespace restourant
                     }
                 }
 
-                Console.WriteLine("\nYeni müşteri var mı? (Evet/Hayır)");
+                Console.WriteLine("Yeni müşteri var mı? (Evet/Hayır)");
                 string yeniMusteri = Console.ReadLine().ToLower();
 
                 if (yeniMusteri == "hayır")
                 {
-                    Console.WriteLine("\nHesap alınıyor...");
+                    Console.WriteLine("Hesap alınıyor...");
                     break;  
                 }
             }
